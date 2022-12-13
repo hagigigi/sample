@@ -1,14 +1,27 @@
 <html>
-<head>
-    <title>KARTEとLINEの接続テスト</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1.0,user-scalable=no" name="viewport">
+    <meta name=”robots” content=”noindex”>
     <!-- Start KARTE Tag -->
     <script>!function(n){var a=window[n]=function(){var n=[].slice.call(arguments);return a.x?a.x.apply(0,n):a.q.push(n)};a.q=[],a.i=Date.now()}("krt")</script>
     <script async type="module" src="https://cdn-edge.karte.io/5b3387bcaf1e0ef7d73f4924cd166a8c/edge.js"></script>
     <!-- End KARTE Tag -->
-</head>
-<body>
-  <h3>KARTEとLINEの接続テスト</h3>
-  <p>ポップアップに適当なIDを入力して連携ボタンを押す</p>
-</body>
+    <title>クーポンページ</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.14/dist/css/uikit.min.css" />
+  </head>
+  <body>
+    <div class="uk-section">
+        <div class="uk-container">
+            <img width="70%" height="100%" class="uk-align-center" src="https://asahi.stg-town-portal.izumi-pt.com/vite/assets/ipt_asahi_logo.61f018a9.svg">
+            <div class="uk-margin-large"></div>
+            <p class="uk-text-lead uk-text-center">クーポン一覧</p>
+            <p class="uk-text-default">ご利用可能なクーポンが表示されます</p>
+            <hr>
+            <div id="couponarea"></div>
+        </div>
+    </div>
+  </body>
 </html>
